@@ -116,3 +116,8 @@ h2 {
 .sales {
   background-color: lightgreen;
 }
+
+ul {
+  padding-left: 40px;
+  list-style-type: none;
+}
