@@ -6,6 +6,7 @@
 
 html {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 body {
@@ -26,6 +27,10 @@ header img {
 h1 {
   display: inline-block;
   vertical-align: middle;
+}
+
+h2 {
+  display: inline-block;
 }
 
 .container {
@@ -57,4 +62,27 @@ h1 {
   padding: 7px;
   border: 1px solid lightgray;
   border-radius: 5px;
+}
+
+.menus {
+  padding: 45px;
+}
+.check {
+  color: green;
+}
+
+.list {
+  display: inline-block;
+}
+
+.oval {
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.editorial {
+  background-color: #2375d7;
 }
