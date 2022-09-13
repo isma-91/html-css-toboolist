@@ -7,6 +7,8 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  font-weight: bold;
+  color: #313437;
 }
 
 body {
@@ -35,7 +37,6 @@ h2 {
 
 .container {
   max-width: 1200px;
-  height: 1000px;
   margin: auto;
   background-color: white;
   border-radius: 5px;
@@ -64,15 +65,24 @@ h2 {
   border-radius: 5px;
 }
 
-.menus {
-  padding: 45px;
+.big-container {
+  padding: 50px;
 }
+
+.menus {
+  padding-bottom: 40px;
+}
+
 .check {
   color: green;
 }
 
-.list {
-  display: inline-block;
+.cross {
+  color: red;
+}
+
+.row {
+  padding: 8px;
 }
 
 .oval {
@@ -85,4 +95,24 @@ h2 {
 
 .editorial {
   background-color: #2375d7;
+}
+
+.goals {
+  background-color: violet;
+}
+
+.recruting {
+  background-color: green;
+}
+
+.mobile {
+  background-color: orange;
+}
+
+.website {
+  background-color: purple;
+}
+
+.sales {
+  background-color: lightgreen;
 }
